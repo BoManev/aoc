@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aoc"
+version = "0.1.0"
+description = ""
+authors = ["BoManev <bomanev@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+ruff = "^0.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

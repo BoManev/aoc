@@ -53,7 +53,7 @@ def part2():
                 if current < int(count):
                     colors[item] = int(count)
             total += prod(colors.values())
-            
+
         print(total)
 
 
